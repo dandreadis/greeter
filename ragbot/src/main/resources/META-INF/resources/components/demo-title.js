@@ -42,7 +42,7 @@ export class DemoTitle extends LitElement {
                 <h1>Greeter RagBot</h1>
             </div>
             <div class="explanation">
-                This demo shows how to build a chat bot powered by ollama and retrieval augmented generation using EasyRag.
+                This demo shows how to build a chat bot powered by retrieval augmented generation using EasyRag.
             </div>
             
             <div class="explanation">
@@ -50,9 +50,12 @@ export class DemoTitle extends LitElement {
             </div>
             
             <div class="explanation">
+            At startup the application uses EasyRag to parse the provided
+            documents, using a default spliting strategy, calculate their
+            embeddings and store them into an in-process embedding store.
                 <ol>
-                    <li>The user send a question to the application.</li>
-                    <li>The application looks for relevant data.</li>
+                    <li>The user sends a question to the application.</li>
+                    <li>The application uses the question to look for relevant data.</li>
                     <li>The relevant data is retrieved and added to the user's question.</li>
                     <li>The extended question is sent to the LLM model.</li>
                     <li>The response is received and sent back to the user.</li>
