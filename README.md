@@ -7,9 +7,9 @@ Those examples demonstrate basic concepts behind the Quarkus/Langchain4j integra
 * Prompting using @User and @System annotations
 * Passing parameters to prompts (Qute templates)
 * How chat memory works with stateless LLMs
-* Configuring logging reveal LLMs interactions
-* Understanding the basics LLM function calls
-* Getting invocations metrics
+* Configuring logging to reveal LLMs interactions
+* Understanding the basics of LLM function calls
+* Getting simple invocations metrics 
 * Applying failover functionalithy to LLM calls
 * Exploring the DevUI support for LLMs
 * Retrieval Augmented Generation with EasyRAG
