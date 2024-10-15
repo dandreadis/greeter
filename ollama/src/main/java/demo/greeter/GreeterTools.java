@@ -17,7 +17,7 @@ public class GreeterTools {
         return LocalDateTime.now();
     }
     
-    // @Tool
+    @Tool
     String evaluateExpression(String expression) {
         Expression expr = new Expression(expression);
         try {
